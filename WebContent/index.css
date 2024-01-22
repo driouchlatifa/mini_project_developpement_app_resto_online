@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Helvetica';
+	color: white;
+}
+
+main{
+	background-image: url(imag/djj.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	height: 89vh;
+}
+.navbar{
+	background-color: white;
+	padding: 0.5rem;
+    position: sticky;
+    top: 0;
+
+
+}
+.title{
+	font-family: "arial black";
+	margin-left: 5%;
+	font-size: 34px;
+	color: #cd5025;
+
+}
+.title:hover{
+	color: grey;
+}
+.navbar ul{
+	display: block;
+	float: right;
+	margin-right: 5%;
+
+
+} 
+.navbar ul li{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 5px 10px;
+	list-style: none;
+	font-weight: bolder;
+}
+.navbar ul li a{
+	color: #cd5025;		
+} 
+.navbar ul li a:hover{
+	color: grey;
+}
+.btn{
+	text-shadow:  none;
+	padding: 8px 10px;
+	margin-right: 5%;
+	background-color: #cd5025;
+	border-radius: 5px;
+	color:  white!important;
+	
+}

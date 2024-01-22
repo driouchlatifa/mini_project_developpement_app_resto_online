@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI';
+
+}
+.sidebar{
+    position: fixed;
+    width:20%;
+    height: 100%;
+    background-color:#7FB3D5 ;
+
+}
+#profile{
+    display: block;
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 50%;
+    
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: all .5s ease;
+
+}
+
+.sidebar ul li:hover a{
+    padding-left: 50px;
+    color: darkgoldenrod;
+    text-decoration: none;
+
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+section{
+    width: 80%;
+    float: right;
+}
+
